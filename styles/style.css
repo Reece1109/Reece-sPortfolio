@@ -1,3 +1,6 @@
+*
+*::after
+*::before
 .logo {
     width: 100px;
 }
@@ -9,5 +12,53 @@
 .wrap{
     position:relative;
     top: 50%;
-    tranform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+nav{
+    background-image:url(https://i.postimg.cc/j5VWG6y7/c09f312177930dc26398672a0d4a8011.jpg);
+    background-size: cover;
+
+}
+.logo{
+    width:5em;
+}
+
+#landing{
+    min-height: 100vh;
+    background-image: url(https://i.postimg.cc/7YYRm00D/a021d3e4e5f4f40692b50c4e2d07c5e6.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Karla', sans-serif;;
+}
+
+#landing{
+    color:white;
+    text-align: center;
+    font
+}
+
+#about{
+    min-height: 100vh;
+
+}
+
+/* #background{
+    min-height: 100vh;
+    background-image: url(https://i.postimg.cc/7YYRm00D/a021d3e4e5f4f40692b50c4e2d07c5e6.jpg) no-repeat center center; */
+    /* background-repeat: no-repeat; */
+    /* background-size: cover;
+    background-position: center;
+} */
+
+#aboutme img {
+    background-size: contain;
+    background-position: center;
+    width: 100%;
+    position: relative;
+background:linear-gradient(rgba(255, 255, 255, 0)
+
+}
+.contact{
+    min-height: 100vh;
 }
