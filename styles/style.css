@@ -1,64 +1,114 @@
-*
-*::after
-*::before
-.logo {
-    width: 100px;
+*,
+*::after,
+*::before{
+    margin: 0%;
+    padding:0%;
+    box-sizing:border-box;
 }
 
 .nav-link {
     color: #fff;
 }
 
-.wrap{
-    position:relative;
+.wrap {
+    position: relative;
     top: 50%;
     transform: translate(-50%, -50%);
 }
 
-nav{
-    background-image:url(https://i.postimg.cc/j5VWG6y7/c09f312177930dc26398672a0d4a8011.jpg);
+#landing {
+    background-image: url(https://i.postimg.cc/j5VWG6y7/c09f312177930dc26398672a0d4a8011.jpg);
     background-size: cover;
 
 }
-.logo{
-    width:5em;
+.logo {
+width: 5em;
 }
 
-#landing{
+.logo:hover {
+    animation: 1s linear rotor infinite ;
+
+}
+
+.landing {
     min-height: 100vh;
-    background-image: url(https://i.postimg.cc/7YYRm00D/a021d3e4e5f4f40692b50c4e2d07c5e6.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    font-family: 'Karla', sans-serif;;
+    width: 100%;
+    position: relative;
+    background: url(https://i.postimg.cc/fb0vqHL6/Koenigsegg-Agera-XS.jpg);
 }
 
-#landing{
-    color:white;
+.landing img {
+    /* min-height: 100%; 
+    z-index: -1;*/
+    /* width: 100%;  */
+    /* position: absolute; */
+}
+
+#landing img {
+    width: 100%;
+    height: 100%;
+}
+
+#landing {
+    color: white;
     text-align: center;
-    font
+  /* font */
 }
 
-#about{
+#about {
     min-height: 100vh;
-
 }
 
 /* #background{
     min-height: 100vh;
     background-image: url(https://i.postimg.cc/7YYRm00D/a021d3e4e5f4f40692b50c4e2d07c5e6.jpg) no-repeat center center; */
-    /* background-repeat: no-repeat; */
-    /* background-size: cover;
+/* background-repeat: no-repeat; */
+/* background-size: cover;
     background-position: center;
 } */
 
-#aboutme img {
-    background-size: contain;
+.about-container {
+    height: auto;
+  /* width: 100%;  */
+  /* position: relative; */
+    background: linear-gradient(
+        rgba(255, 255, 255, 0.4),
+        rgba(255, 255, 255, 0.4)
+    ),
+    url(https://i.postimg.cc/bwcpq59y/bfa2d1954f88e09c418f8c40161162f8.jpg);
     background-position: center;
-    width: 100%;
-    position: relative;
-background:linear-gradient(rgba(255, 255, 255, 0)
-
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: cover;
 }
-.contact{
+
+.work {
+    height: auto;
+  /* width: 100%;  */
+  /* position: relative; */
+    background: linear-gradient(
+        rgba(255, 255, 255, 0.4),
+        rgba(255, 255, 255, 0.4)
+    ),
+    url(https://i.postimg.cc/bwcpq59y/bfa2d1954f88e09c418f8c40161162f8.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: cover;
+
+.contact {
     min-height: 100vh;
+}
+
+@keyframes rotor {
+    0%{
+        transform:rotate(0deg)
+    }
+    50%{
+        transform: rotate(180deg);
+
+    }
+    100%{
+        transform: rotate(360deg);
+    }
 }
