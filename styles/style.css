@@ -66,6 +66,7 @@ body{
     background-repeat: no-repeat ;
     background-size: cover;
     background-attachment: fixed;
+    max-width: 100%;
 }
 .apple {
     box-shadow: 0 0 15px 5px rgb(40, 116, 166 0.8)
@@ -86,11 +87,11 @@ body{
     margin: auto;
     position: relative;
     perspective: 100px;
-    box-shadow: ;
-}
+
+};
 
 
-.about-container {
+.about{
     height: auto;
     width: 100%;
     position: relative;
@@ -107,7 +108,7 @@ body{
 
 #about-me p {
     font-size: xx-large;
-}
+} 
 
 .work {
     height: auto;
@@ -173,3 +174,20 @@ li{
     background-size: 0px;
 }
 
+@media screen and (max-width:720px) {
+    .container img {
+        width: 100%;
+    }
+    #about-me .col-6 {
+        width: 100%;
+    }
+}
+
+.banana{
+    width: 100%;
+}
+
+/*TESTIMONIALS */
+.testimonials .card {
+    max-width: 100%;
+}
