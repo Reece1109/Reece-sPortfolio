@@ -65,6 +65,7 @@ body{
     background-image: url(https://i.postimg.cc/0y63ZbFn/094dea98709e557c9a709f6fedba32f1.gif);
     background-repeat: no-repeat ;
     background-size: cover;
+    background-attachment: fixed;
 }
 .apple {
     box-shadow: 0 0 15px 5px rgb(40, 116, 166 0.8)
@@ -87,7 +88,6 @@ body{
     perspective: 100px;
     box-shadow: ;
 }
-
 
 
 .about-container {
@@ -144,7 +144,7 @@ li{
 
 #contact {
     min-height: 100vh;
-    background-image: url("https://i.postimg.cc/TPRwgJLB/7b18b63f5cd46f14ce41e41c9c6a3685.jpg");
+    /* background-image: url("https://i.postimg.cc/TPRwgJLB/7b18b63f5cd46f14ce41e41c9c6a3685.jpg"); */
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
